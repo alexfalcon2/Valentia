@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7a7a7; /* Color piel */
+}
+
+.container {
+    text-align: center;
+}
+
+.message {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente del texto */
+}
+
+.container img {
+    max-width: 300px; /* Establece un ancho máximo específico para la imagen */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    margin-top: 20px; /* Añade un espacio superior */
+}
+
